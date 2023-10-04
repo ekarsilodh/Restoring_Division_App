@@ -142,10 +142,10 @@ if st.button("Calculate"):
         #print(Qf)
         #qf_bit = len(str(Qf))
 
-        print(f"Q = {a} = {Qf}")
-        print(f"M = {b} = {M}")
+        st.write(f"Q = {a} = {Qf}")
+        st.write(f"M = {b} = {M}")
         #print(data)
-        print("\n")
+        #print("\n")
 
         data = [["Operation", "M", "A", "Q", "Size"]]
         data.append(['Initial', M, A, Q, size])
